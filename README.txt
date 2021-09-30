@@ -9,6 +9,8 @@ samples.json contains arrays of bytes used to test sheetpacker
 
 run test.py and test.js to test things
 
+sheetpacker.js produced from sheetpacker.py and preserves line counting as much as posible
+
 
 
 
@@ -43,7 +45,7 @@ where
 
 TIPs:
 
-    value_len can be 0, then key will be inserted but no bytes will be read
+    in python value_len can be 0, then key will be inserted but no bytes will be read
 
 
 TODOs:
@@ -51,3 +53,5 @@ TODOs:
     array_len can be used for describing other formats such as objects
 
     value_len can be used for describing string formats
+
+    sheetpacker.js can convert bytes only in big endian
